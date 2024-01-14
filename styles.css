@@ -1,0 +1,21 @@
+.container-box {
+    width: 150px;
+    height: 150px;
+}
+
+.container-box:nth-child(1) {
+    background-color: red;
+}
+
+.container-box:nth-child(2) {
+    background-color: blue;
+    position: absolute;
+    left: 90px;
+    top: 90px;
+}
+
+.container-box:nth-child(3) {
+    background-color: green;
+    margin-left: 200px;
+}
+
